@@ -1,0 +1,334 @@
+{
+  "gunControl": {
+    "phrase": "gun control bill",
+    "title": "Safe Communities Safe Schools Act of 2013 (S.649)",
+    "subheads": {
+      "Summary": {
+        "text":"A bill to ensure that all individuals who should be prohibited from buying a firearm are\
+          listed in the national instant criminal background check system and require a background check for every\
+          firearm sale, and for other purposes.",
+        "source": "GovTrack.us",
+        "sourceURL": "http://www.govtrack.us/congress/bills/113/s649"
+      },
+      "Interest Groups": {
+        "Gun Rights": {
+          "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/gun_rights_lobby.png",
+          "source": "Opensecrets",
+          "sourceURL": "http://www.opensecrets.org/industries/lobbying.php?cycle=2012&ind=Q13s"
+        },
+        "Gun Control": {
+          "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/gun_control_lobby.png",
+          "source": "Opensecrets",
+          "sourceURL": "http://www.opensecrets.org/industries/lobbying.php?cycle=2012&ind=Q12s"
+        }
+      },
+      "Polls": {
+        "Washington Post": {
+          "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/wpPoll.png",
+          "source": "Washington Post",
+          "sourceURL": "http://www.washingtonpost.com/politics/polling/protecting-priority-enacting-violence/2013/05/22/856b5088-a872-11e2-9e1c-bb0fb0c2edd9_page.html"
+        },
+        "Gallup": {
+          "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/gallupPoll.png",
+          "source": "Gallup",
+          "sourceURL": "http://www.gallup.com/poll/160085/americans-back-obama-proposals-address-gun-violence.aspx"
+        }
+      },
+      "Fact Checkers": {
+        "WP 1": {
+          "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/washImg1.png",
+          "source": "Washington Post",
+          "sourceURL": "http://www.washingtonpost.com/blogs/fact-checker/post/do-concealed-weapon-laws-result-in-less-crime/2012/12/16/e80a5d7e-47c9-11e2-ad54-580638ede391_blog.html"
+        },
+        "WP 2": {
+          "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/washImg2.png",
+          "source": "Washington Post",
+          "sourceURL": "http://www.washingtonpost.com/blogs/fact-checker/post/bill-clintons-over-the-top-fact-on-mass-shootings/2013/01/10/7040d61e-5b7a-11e2-9fa9-5fbdc9530eb9_blog.html"
+        },
+        "WP 3": {
+          "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/washImg3.png",
+          "source": "Washington Post",
+          "sourceURL": "http://www.washingtonpost.com/blogs/fact-checker/post/4-pinocchios-for-a-slashing-nra-ad-on-security-at-sidwell-friends-school/2013/01/16/95b2127a-6032-11e2-9940-6fc488f3fecd_blog.html"
+        }
+      }
+    }
+  },
+  "obama": {
+    "phrase": "President Obama",
+    "title": "Barack Obama",
+    "subheads": {
+      "Campaign Finance": {
+        "Industry Contributions": {
+          "data": [
+            {
+                "count": "123486",
+                "amount": "58189782.00",
+                "id": "b21467ae32924f84ada9076535401a91",
+                "should_show_entity": false,
+                "name": "RETIRED"
+            },
+            {
+                "count": "40221",
+                "amount": "28331500.00",
+                "id": "f50cf984a2e3477c8167d32e2b14e052",
+                "should_show_entity": true,
+                "name": "LAWYERS/LAW FIRMS"
+            },
+            {
+                "count": "49118",
+                "amount": "22456421.00",
+                "id": "31657d3c187e4cecb670d228d7e674d2",
+                "should_show_entity": true,
+                "name": "EDUCATION"
+            },
+            {
+                "count": "21512",
+                "amount": "10808730.00",
+                "id": "a05a0d06f6814b31bece35a81fcb40c7",
+                "should_show_entity": true,
+                "name": "HEALTH PROFESSIONALS"
+            },
+            {
+                "count": "14821",
+                "amount": "9052702.00",
+                "id": "e5175721aac9406795a1f97cae01e01d",
+                "should_show_entity": true,
+                "name": "BUSINESS SERVICES"
+            },
+            {
+                "count": "19217",
+                "amount": "8801950.00",
+                "id": "9e701425eeb14b4c874cfb4415a4ac3b",
+                "should_show_entity": true,
+                "name": "CIVIL SERVANTS/PUBLIC OFFICIALS"
+            },
+            {
+                "count": "13370",
+                "amount": "7959352.00",
+                "id": "042288e0185a44ec82982814c69abdca",
+                "should_show_entity": true,
+                "name": "COMPUTERS/INTERNET"
+            },
+            {
+                "count": "9241",
+                "amount": "6720885.00",
+                "id": "9fd0b2477acc4fc385e2e2c8e6ed7b00",
+                "should_show_entity": true,
+                "name": "TV/MOVIES/MUSIC"
+            },
+            {
+                "count": "6359",
+                "amount": "6610837.00",
+                "id": "0af3f418f426497e8bbf916bfc074ebc",
+                "should_show_entity": true,
+                "name": "SECURITIES & INVESTMENT"
+            },
+            {
+                "count": "11439",
+                "amount": "6402143.00",
+                "id": "d9c4a26cd671436eac3c501184364fc4",
+                "should_show_entity": false,
+                "name": "MISC BUSINESS"
+            }
+          ],
+          "source": "Sunlight Foundation",
+          "sourceURL":"http://influenceexplorer.com/politician/barack-obama/4148b26f6f1c437cb50ea9ca4699417a?cycle=2012"
+        },
+        "Organization Contributions": {
+          "data": [
+            {
+              "employee_amount": "1504133.00",
+              "total_amount": "1504133.00",
+              "total_count": "3074",
+              "name": "University of California",
+              "direct_count": "0",
+              "employee_count": "3074",
+              "id": "0e85264c0c0e4dfb9a4b38cfc181f030",
+              "direct_amount": "0"
+            },
+            {
+              "employee_amount": "814645.00",
+              "total_amount": "814645.00",
+              "total_count": "1241",
+              "name": "Microsoft Corp",
+              "direct_count": "0",
+              "employee_count": "1241",
+              "id": "f1244474fad44ad9a3a57859b4a709b1",
+              "direct_amount": "0"
+            },
+            {
+              "employee_amount": "801770.00",
+              "total_amount": "801770.00",
+              "total_count": "1131",
+              "name": "Google Inc",
+              "direct_count": "0",
+              "employee_count": "1131",
+              "id": "7e716c3ba2244122b96a9dfaf60bfa70",
+              "direct_amount": "0"
+            },
+            {
+              "employee_amount": "730459.00",
+              "total_amount": "730459.00",
+              "total_count": "1556",
+              "name": "US Government",
+              "direct_count": "0",
+              "employee_count": "1556",
+              "id": "7e5d9e2fec084c2fa0257f6ae93068fa",
+              "direct_amount": "0"
+            },
+            {
+              "employee_amount": "668368.00",
+              "total_amount": "668368.00",
+              "total_count": "1004",
+              "name": "Harvard University",
+              "direct_count": "0",
+              "employee_count": "1004",
+              "id": "74a1dca1259b4f60bca481d4c76e2a1f",
+              "direct_amount": "0"
+            },
+            {
+              "employee_amount": "588386.00",
+              "total_amount": "588386.00",
+              "total_count": "1277",
+              "name": "Kaiser Permanente",
+              "direct_count": "0",
+              "employee_count": "1277",
+              "id": "a9106d630fb6417fb2b69971b0f152fe",
+              "direct_amount": "0"
+            },
+            {
+              "employee_amount": "512356.00",
+              "total_amount": "512356.00",
+              "total_count": "1005",
+              "name": "Stanford University",
+              "direct_count": "0",
+              "employee_count": "1005",
+              "id": "5662459bf8c243d7bbd9f5c85a568e99",
+              "direct_amount": "0"
+            },
+            {
+              "employee_amount": "456975.00",
+              "total_amount": "456975.00",
+              "total_count": "541",
+              "name": "Deloitte LLP",
+              "direct_count": "0",
+              "employee_count": "541",
+              "id": "a515187b2bdd455595d8a2df805f7816",
+              "direct_amount": "0"
+            },
+            {
+              "employee_amount": "455309.00",
+              "total_amount": "455309.00",
+              "total_count": "850",
+              "name": "Columbia University",
+              "direct_count": "0",
+              "employee_count": "850",
+              "id": "baa78b3a30814f9e9f9b4ff5b20ac32f",
+              "direct_amount": "0"
+            },
+            {
+              "employee_amount": "442271.00",
+              "total_amount": "442271.00",
+              "total_count": "560",
+              "name": "Time Warner",
+              "direct_count": "0",
+              "employee_count": "560",
+              "id": "faea1ecb4c2745c6a56a2a67a5069de3",
+              "direct_amount": "0"
+            }
+          ],
+          "source": "Sunlight Foundation",
+          "sourceURL":"http://influenceexplorer.com/politician/barack-obama/4148b26f6f1c437cb50ea9ca4699417a?cycle=2012"
+        }
+      },
+      "Independant Expenditures": {
+        "img":"https://raw.github.com/ameensol/ghettoCDN/master/gun/img/obamaIndExpImg.png",
+        "source": "Sunlight Foundation",
+        "sourceURL": "http://influenceexplorer.com/politician/barack-obama/4148b26f6f1c437cb50ea9ca4699417a?cycle=2012"
+      },
+      "Relevant Speeches": [
+        {
+          "iframe": "<iframe width=\"560\" height=\"315\" src=\"http://www.youtube.com/embed/BO_dUo0M6OU\" frameborder=\"0\" allowfullscreen></iframe>"
+        }, 
+        {
+          "iframe": "<iframe width=\"560\" height=\"315\" src=\"http://www.youtube.com/embed/g7MYLbOV9fY\" frameborder=\"0\" allowfullscreen></iframe>"
+        }
+      ]
+    }
+  },
+  "biden": {
+    "phrase": "Vice President Biden",
+    "title": "Joseph Biden",
+    "subheads": [
+      {
+        "subhead": "Campaign Finance",
+        "data": [
+          {
+            "title": "Industry Contributions",
+            "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/bidenIndContribImg.png",
+            "source": "Sunlight Foundation",
+            "sourceURL":"http://influenceexplorer.com/politician/joseph-r-biden-jr/bb7109816cb44622be17ec7b0d642171?cycle=2008"
+          },
+          {
+            "title": "Organization Contributions",
+            "img":"https://raw.github.com/ameensol/ghettoCDN/master/gun/img/bidenOrgContribImg.png",
+            "source": "Sunlight Foundation",
+            "sourceURL":"http://influenceexplorer.com/politician/joseph-r-biden-jr/bb7109816cb44622be17ec7b0d642171?cycle=2008"
+          }
+        ]
+      },
+      {
+        "subhead":"Relevant Speeches",
+        "data": {
+          "iframe": "<iframe height=\"360\" width=\"640\" style=\"border: 0px solid #ffffff;\" src=\"http://cdnapi.kaltura.com/index.php/extwidget/embedIframe/entry_id/0_ewldncd8/widget_id/_483511/uiconf_id/5590821?referer=http://abcnews.go.com/Politics/video/joe-biden-gun-control-speech-vice-president-pushes-19429372&amp;flashvars[autoPlay]=false&amp;addThis.playerSize=392x221&amp;freeWheel.siteSectionId=nws_offsite&amp;closedCaptionActive=false&amp;addThis.playerSize=640x360&amp;closedCaptionsOverPlayer.fontsize=18\">Unfortunately your browser does not support IFrames.</iframe>"
+        }
+      }
+    ]
+  },
+  "manchin": {
+    "phrase": "Joe Manchin III",
+    "title": "Joseph Manchin III",
+    "subheads": {
+      "Campaign Finance": {
+        "Industry Contributions": {
+          "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/manchinIndContribImg.png",
+          "source": "Sunlight Foundation",
+          "sourceURL":"http://influenceexplorer.com/politician/joe-manchin/fea00787eb034cb2a11e8086a48db88e?cycle=2012"
+        },
+        "Organization Contributions": {
+          "img":"https://raw.github.com/ameensol/ghettoCDN/master/gun/img/manchinOrgContribImg.png",
+          "source": "Sunlight Foundation",
+          "sourceURL":"http://influenceexplorer.com/politician/joe-manchin/fea00787eb034cb2a11e8086a48db88e?cycle=2012"
+        }
+      },
+      "Relevant Speeches": [
+        {
+          "iframe": "<object classid=\"clsid:d27cdb6eae6d-11cf-96b8-444553540000\" codebase=\"http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0\" align=\"middle\" height=\"500\" width=\"410\"><param name=\"allowScriptAccess\" value=\"true\"/><param name=\"movie\" value=\"http://www.c-spanvideo.org/videoLibrary/assets/swf/CSPANPlayer.swf?pid=312020-1\"/><param name=\"quality\" value=\"high\"/><param name=\"bgcolor\" value=\"#ffffff\"/><param name=\"allowFullScreen\" value=\"true\"/><param name=\"flashvars\" value=\"system=http://www.c-spanvideo.org/common/services/flashXml.php?programid=307102&style=full\"/><embed name=\"cspan-video-player\" src=\"http://www.c-spanvideo.org/videoLibrary/assets/swf/CSPANPlayer.swf?pid=312020-1\" allowScriptAccess=\"always\" bgcolor=\"#ffffff\" quality=\"high\" allowFullScreen=\"true\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.macromedia.com/go/getflashplayer\" flashvars=\"system=http://www.c-spanvideo.org/common/services/flashXml.php?programid=307102&style=full\" align=\"middle\" height=\"500\" width=\"410\"></embed></object>"
+        }
+      ]
+    }
+  },
+  "toomey": {
+    "phrase": "Patrick Toomey",
+    "title": "Patrick Toomey",
+    "subheads": {
+      "Campaign Finance": {
+        "Industry Contributions": {
+          "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/toomeyIndContribImg.png",
+          "source": "Sunlight Foundation",
+          "sourceURL":"http://influenceexplorer.com/politician/pat-toomey/f661eb3826f3416da845e078ee19d8a3?cycle=2010"
+        },
+        "Organization Contributions": {
+          "img":"https://raw.github.com/ameensol/ghettoCDN/master/gun/img/toomeyOrgContribImg.png",
+          "source": "Sunlight Foundation",
+          "sourceURL":"http://influenceexplorer.com/politician/pat-toomey/f661eb3826f3416da845e078ee19d8a3?cycle=2010"
+        }
+      },
+      "Relevant Speeches": [
+        {
+          "iframe": "<object classid=\"clsid:d27cdb6eae6d-11cf-96b8-444553540000\" codebase=\"http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0\" align=\"middle\" height=\"500\" width=\"410\"><param name=\"allowScriptAccess\" value=\"true\"/><param name=\"movie\" value=\"http://www.c-spanvideo.org/videoLibrary/assets/swf/CSPANPlayer.swf?pid=312020-1\"/><param name=\"quality\" value=\"high\"/><param name=\"bgcolor\" value=\"#ffffff\"/><param name=\"allowFullScreen\" value=\"true\"/><param name=\"flashvars\" value=\"system=http://www.c-spanvideo.org/common/services/flashXml.php?programid=307102&style=full\"/><embed name=\"cspan-video-player\" src=\"http://www.c-spanvideo.org/videoLibrary/assets/swf/CSPANPlayer.swf?pid=312020-1\" allowScriptAccess=\"always\" bgcolor=\"#ffffff\" quality=\"high\" allowFullScreen=\"true\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.macromedia.com/go/getflashplayer\" flashvars=\"system=http://www.c-spanvideo.org/common/services/flashXml.php?programid=307102&style=full\" align=\"middle\" height=\"500\" width=\"410\"></embed></object>"
+        }
+      ]
+    }
+  }
+}

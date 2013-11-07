@@ -1,0 +1,12 @@
+{
+  "name": "dataExplorer",
+  "version": "0.0.0",
+  "description": "data integration with news articles",
+  "keywords": [],
+  "author": "Ameen Soleimani (https://github.com/ameensol)",
+  "license": "MIT",
+  "dependencies": {
+    "d3":"3.3.9",
+    "titlecaps": "0.3.2"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "manifest_version": 2,
+
+  "name": "Toolbar",
+  "description": "Toolbar Mockup",
+  "version": "1.0",
+
+  "permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+  {
+    "matches": [
+      "https://www.washingtonpost.com/blogs/post-politics/wp/2013/04/17/senate-to-vote-on-amendments-to-gun-bill-with-background-check-plan-in-doubt/",
+      "http://www.washingtonpost.com/blogs/post-politics/wp/2013/04/17/senate-to-vote-on-amendments-to-gun-bill-with-background-check-plan-in-doubt/"],
+    "css": ["/lib/css/style.css"],
+    "js": ["/lib/js/jquery-2.0.3.min.js", "/lib/js/d3.js" , "/bundle.js"]
+  }
+  ],
+  "web_accessible_resources": [
+    "lib/glyphicons/free/glyphicons_343_thumbs_up.png",
+    "lib/glyphicons/free/glyphicons_344_thumbs_down.png",
+    "lib/glyphicons/free/glyphicons_020_home.png",
+    "lib/glyphicons/free/glyphicons_074_cup.png",
+    "lib/glyphicons/free/glyphicons_124_message_plus.png",
+    "lib/glyphicons/free/glyphicons_280_settings.png",
+    "lib/glyphicons/free/glyphicons_245_chat.png",
+    "lib/glyphicons/free/glyphicons_041_charts.png",
+    "lib/glyphicons/free/glyphicons_210_left_arrow.png",
+    "lib/glyphicons/free/glyphicons_211_right_arrow.png",
+    "lib/fonts/flexslider-icon.eot",
+    "lib/fonts/flexslider-icon.eot?#iefix",
+    "lib/fonts/flexslider-icon.woff",
+    "lib/fonts/flexslider-icon.ttf",
+    "lib/fonts/flexslider-icon.svg#flexslider-icon",
+    "bigData.json",
+    "lib/d3vis/indContrib.js",
+    "obamaIndContrib.json"
+  ]
+}
