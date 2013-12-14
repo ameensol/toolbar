@@ -1,6 +1,125 @@
 [
   {
-    "entity":"biden",
+    "entityID":"gunControl",
+    "phrase": "gun control bill",
+    "title": "Safe Communities Safe Schools Act of 2013 (S.649)",
+    "subheads": [
+      {
+        "subhead": "Summary",
+        "content": [
+          {
+            "text": "A bill to ensure that all individuals who should be prohibited from buying a firearm are\
+              listed in the national instant criminal background check system and require a background check for every\
+              firearm sale, and for other purposes.",
+            "source": "GovTrack.us",
+            "sourceURL":"http://www.govtrack.us/congress/bills/113/s649"
+          }
+        ]
+      },
+      {
+        "subhead": "Interest Groups",
+        "content": [
+          {
+            "title": "Gun Rights",
+            "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/gun_rights_lobby.png",
+            "source": "Opensecrets",
+            "sourceURL": "http://www.opensecrets.org/industries/lobbying.php?cycle=2012&ind=Q13s"
+          },
+          {
+            "title": "Gun Control",
+            "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/gun_control_lobby.png",
+            "source": "Opensecrets",
+            "sourceURL": "http://www.opensecrets.org/industries/lobbying.php?cycle=2012&ind=Q12s"
+          }
+        ]
+      },
+      {
+        "subhead": "Polls",
+        "content": [
+          {
+            "title": "Washington Post",
+            "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/wpPoll.png",
+            "source": "Washington Post",
+            "sourceURL": "http://www.washingtonpost.com/politics/polling/protecting-priority-enacting-violence/2013/05/22/856b5088-a872-11e2-9e1c-bb0fb0c2edd9_page.html"
+          },
+          {
+            "title": "Gallup",
+            "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/gallupPoll.png",
+            "source": "Gallup",
+            "sourceURL": "http://www.gallup.com/poll/160085/americans-back-obama-proposals-address-gun-violence.aspx"
+          }
+        ]
+      },
+      {
+        "subhead": "Fact Checkers",
+        "content": [
+          {
+            "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/washImg1.png",
+            "source": "Washington Post",
+            "sourceURL": "http://www.washingtonpost.com/blogs/fact-checker/post/do-concealed-weapon-laws-result-in-less-crime/2012/12/16/e80a5d7e-47c9-11e2-ad54-580638ede391_blog.html"
+          },
+          {
+            "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/washImg2.png",
+            "source": "Washington Post",
+            "sourceURL": "http://www.washingtonpost.com/blogs/fact-checker/post/bill-clintons-over-the-top-fact-on-mass-shootings/2013/01/10/7040d61e-5b7a-11e2-9fa9-5fbdc9530eb9_blog.html"
+          },
+          {
+            "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/washImg3.png",
+            "source": "Washington Post",
+            "sourceURL": "http://www.washingtonpost.com/blogs/fact-checker/post/4-pinocchios-for-a-slashing-nra-ad-on-security-at-sidwell-friends-school/2013/01/16/95b2127a-6032-11e2-9940-6fc488f3fecd_blog.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entityID":"obama",
+    "phrase": "President Obama",
+    "title": "Barack Obama",
+    "subheads": [
+      {
+        "subhead": "Campaign Finance",
+        "content": [
+          {
+            "title": "Industry Contributions",
+            "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/obamaIndContribImg.png",
+            "source": "Sunlight Foundation",
+            "sourceURL":"http://influenceexplorer.com/politician/joseph-r-biden-jr/bb7109816cb44622be17ec7b0d642171?cycle=2008"
+          },
+          {
+            "title": "Organization Contributions",
+            "img":"https://raw.github.com/ameensol/ghettoCDN/master/gun/img/obamaOrgContribImg.png",
+            "source": "Sunlight Foundation",
+            "sourceURL":"http://influenceexplorer.com/politician/joseph-r-biden-jr/bb7109816cb44622be17ec7b0d642171?cycle=2008"
+          }
+        ]
+      },
+      {
+        "subhead": "Independant Expenditures",
+        "content": [
+          {
+            "title": "Independant Expenditures",
+            "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/obamaIndExpImg.png",
+            "source": "Sunlight Foundation",
+            "sourceURL": "http://influenceexplorer.com/politician/barack-obama/4148b26f6f1c437cb50ea9ca4699417a?cycle=2012"
+          }
+        ]
+      },
+      {
+        "subhead":"Relevant Speeches",
+        "content": [
+          {
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"http://www.youtube.com/embed/BO_dUo0M6OU\" frameborder=\"0\" allowfullscreen></iframe>"
+          },
+          {
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"http://www.youtube.com/embed/g7MYLbOV9fY\" frameborder=\"0\" allowfullscreen></iframe>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entityID":"biden",
     "phrase": "Vice President Biden",
     "title": "Joseph Biden",
     "subheads": [
@@ -23,9 +142,11 @@
       },
       {
         "subhead":"Relevant Speeches",
-        "content": {
-          "iframe": "<iframe height=\"360\" width=\"640\" style=\"border: 0px solid #ffffff;\" src=\"http://cdnapi.kaltura.com/index.php/extwidget/embedIframe/entry_id/0_ewldncd8/widget_id/_483511/uiconf_id/5590821?referer=http://abcnews.go.com/Politics/video/joe-biden-gun-control-speech-vice-president-pushes-19429372&amp;flashvars[autoPlay]=false&amp;addThis.playerSize=392x221&amp;freeWheel.siteSectionId=nws_offsite&amp;closedCaptionActive=false&amp;addThis.playerSize=640x360&amp;closedCaptionsOverPlayer.fontsize=18\">Unfortunately your browser does not support IFrames.</iframe>"
-        }
+        "content": [
+          {
+            "iframe": "<iframe height=\"360\" width=\"640\" style=\"border: 0px solid #ffffff;\" src=\"http://cdnapi.kaltura.com/index.php/extwidget/embedIframe/entry_id/0_ewldncd8/widget_id/_483511/uiconf_id/5590821?referer=http://abcnews.go.com/Politics/video/joe-biden-gun-control-speech-vice-president-pushes-19429372&amp;flashvars[autoPlay]=false&amp;addThis.playerSize=392x221&amp;freeWheel.siteSectionId=nws_offsite&amp;closedCaptionActive=false&amp;addThis.playerSize=640x360&amp;closedCaptionsOverPlayer.fontsize=18\">Unfortunately your browser does not support IFrames.</iframe>"
+          }
+        ]
       }
     ]
   }

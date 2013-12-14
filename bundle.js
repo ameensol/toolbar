@@ -48,8 +48,128 @@ var indContrib = module.exports = function (target) {
   //     .orient("left")
 
 },{}],2:[function(require,module,exports){
-module.exports={
-  "biden": {
+module.exports=[
+  {
+    "entityID":"gunControl",
+    "phrase": "gun control bill",
+    "title": "Safe Communities Safe Schools Act of 2013 (S.649)",
+    "subheads": [
+      {
+        "subhead": "Summary",
+        "content": [
+          {
+            "text": "A bill to ensure that all individuals who should be prohibited from buying a firearm are\
+              listed in the national instant criminal background check system and require a background check for every\
+              firearm sale, and for other purposes.",
+            "source": "GovTrack.us",
+            "sourceURL":"http://www.govtrack.us/congress/bills/113/s649"
+          }
+        ]
+      },
+      {
+        "subhead": "Interest Groups",
+        "content": [
+          {
+            "title": "Gun Rights",
+            "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/gun_rights_lobby.png",
+            "source": "Opensecrets",
+            "sourceURL": "http://www.opensecrets.org/industries/lobbying.php?cycle=2012&ind=Q13s"
+          },
+          {
+            "title": "Gun Control",
+            "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/gun_control_lobby.png",
+            "source": "Opensecrets",
+            "sourceURL": "http://www.opensecrets.org/industries/lobbying.php?cycle=2012&ind=Q12s"
+          }
+        ]
+      },
+      {
+        "subhead": "Polls",
+        "content": [
+          {
+            "title": "Washington Post",
+            "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/wpPoll.png",
+            "source": "Washington Post",
+            "sourceURL": "http://www.washingtonpost.com/politics/polling/protecting-priority-enacting-violence/2013/05/22/856b5088-a872-11e2-9e1c-bb0fb0c2edd9_page.html"
+          },
+          {
+            "title": "Gallup",
+            "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/gallupPoll.png",
+            "source": "Gallup",
+            "sourceURL": "http://www.gallup.com/poll/160085/americans-back-obama-proposals-address-gun-violence.aspx"
+          }
+        ]
+      },
+      {
+        "subhead": "Fact Checkers",
+        "content": [
+          {
+            "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/washImg1.png",
+            "source": "Washington Post",
+            "sourceURL": "http://www.washingtonpost.com/blogs/fact-checker/post/do-concealed-weapon-laws-result-in-less-crime/2012/12/16/e80a5d7e-47c9-11e2-ad54-580638ede391_blog.html"
+          },
+          {
+            "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/washImg2.png",
+            "source": "Washington Post",
+            "sourceURL": "http://www.washingtonpost.com/blogs/fact-checker/post/bill-clintons-over-the-top-fact-on-mass-shootings/2013/01/10/7040d61e-5b7a-11e2-9fa9-5fbdc9530eb9_blog.html"
+          },
+          {
+            "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/washImg3.png",
+            "source": "Washington Post",
+            "sourceURL": "http://www.washingtonpost.com/blogs/fact-checker/post/4-pinocchios-for-a-slashing-nra-ad-on-security-at-sidwell-friends-school/2013/01/16/95b2127a-6032-11e2-9940-6fc488f3fecd_blog.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entityID":"obama",
+    "phrase": "President Obama",
+    "title": "Barack Obama",
+    "subheads": [
+      {
+        "subhead": "Campaign Finance",
+        "content": [
+          {
+            "title": "Industry Contributions",
+            "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/obamaIndContribImg.png",
+            "source": "Sunlight Foundation",
+            "sourceURL":"http://influenceexplorer.com/politician/joseph-r-biden-jr/bb7109816cb44622be17ec7b0d642171?cycle=2008"
+          },
+          {
+            "title": "Organization Contributions",
+            "img":"https://raw.github.com/ameensol/ghettoCDN/master/gun/img/obamaOrgContribImg.png",
+            "source": "Sunlight Foundation",
+            "sourceURL":"http://influenceexplorer.com/politician/joseph-r-biden-jr/bb7109816cb44622be17ec7b0d642171?cycle=2008"
+          }
+        ]
+      },
+      {
+        "subhead": "Independant Expenditures",
+        "content": [
+          {
+            "title": "Independant Expenditures",
+            "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/obamaIndExpImg.png",
+            "source": "Sunlight Foundation",
+            "sourceURL": "http://influenceexplorer.com/politician/barack-obama/4148b26f6f1c437cb50ea9ca4699417a?cycle=2012"
+          }
+        ]
+      },
+      {
+        "subhead":"Relevant Speeches",
+        "content": [
+          {
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"http://www.youtube.com/embed/BO_dUo0M6OU\" frameborder=\"0\" allowfullscreen></iframe>"
+          },
+          {
+            "iframe": "<iframe width=\"560\" height=\"315\" src=\"http://www.youtube.com/embed/g7MYLbOV9fY\" frameborder=\"0\" allowfullscreen></iframe>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entityID":"biden",
     "phrase": "Vice President Biden",
     "title": "Joseph Biden",
     "subheads": [
@@ -72,13 +192,15 @@ module.exports={
       },
       {
         "subhead":"Relevant Speeches",
-        "content": {
-          "iframe": "<iframe height=\"360\" width=\"640\" style=\"border: 0px solid #ffffff;\" src=\"http://cdnapi.kaltura.com/index.php/extwidget/embedIframe/entry_id/0_ewldncd8/widget_id/_483511/uiconf_id/5590821?referer=http://abcnews.go.com/Politics/video/joe-biden-gun-control-speech-vice-president-pushes-19429372&amp;flashvars[autoPlay]=false&amp;addThis.playerSize=392x221&amp;freeWheel.siteSectionId=nws_offsite&amp;closedCaptionActive=false&amp;addThis.playerSize=640x360&amp;closedCaptionsOverPlayer.fontsize=18\">Unfortunately your browser does not support IFrames.</iframe>"
-        }
+        "content": [
+          {
+            "iframe": "<iframe height=\"360\" width=\"640\" style=\"border: 0px solid #ffffff;\" src=\"http://cdnapi.kaltura.com/index.php/extwidget/embedIframe/entry_id/0_ewldncd8/widget_id/_483511/uiconf_id/5590821?referer=http://abcnews.go.com/Politics/video/joe-biden-gun-control-speech-vice-president-pushes-19429372&amp;flashvars[autoPlay]=false&amp;addThis.playerSize=392x221&amp;freeWheel.siteSectionId=nws_offsite&amp;closedCaptionActive=false&amp;addThis.playerSize=640x360&amp;closedCaptionsOverPlayer.fontsize=18\">Unfortunately your browser does not support IFrames.</iframe>"
+          }
+        ]
       }
     ]
   }
-}
+]
 },{}],3:[function(require,module,exports){
 /*
  * Title Caps
@@ -232,7 +354,7 @@ function init() {
 
   console.log('extension injection commenced');
 
-  var screenWidth = document.width;
+  var screenWidth = document.body.clientWidth;
   var article = $("#post-content").children("p");
 
   freeIcons = chrome.extension.getURL("lib/glyphicons/free");
@@ -258,7 +380,15 @@ function init() {
         <img class="icon" src="' + thumbsDown + '">\
         <span id="articleScore">357</span>\
         <img class="icon" src="' + thumbsUp + '">\
-        <img class="icon" src="' + cup + '">\
+        <img id="plaudit" class="icon" src="' + cup + '">\
+        <div id="plauditMenu">\
+          <ul>\
+            <li><strong>Plaudits</strong></li>\
+            <li>Available: 3</li>\
+            <li>Award: <input id="plauditNum" type="number" placeholder="1"><input id="plauditGo" type="submit" value="Give!"></li>\
+            <li id="getMore">Get more</li>\
+          </ul>\
+        </div>\
       </div>\
       <div class="icons pull-right">\
         <img class="icon" src="' + message + '">\
@@ -275,28 +405,28 @@ function init() {
   var entityHTML = '<div id="entities"><h2>Entities</h2><ul>';
   var subheadsHTML = '<div id="subheadsList">';
   var modalsHTML = '<div id="modalsList">';
-  Object.keys(bigData).forEach(function(e) {
+  bigData.forEach(function(e) {
     // replace the entities phrase with a datalink
     article.each(function() {
-      $(this).html($(this).html().replace(bigData[e].phrase, '<a id="' + e + 'Link" class="dataLink" href="#">' + bigData[e].phrase + '</a>'));
+      $(this).html($(this).html().replace(e.phrase, '<a id="' + e.entityID + 'Link" class="dataLink" href="#">' + e.phrase + '</a>'));
     });
-    entityHTML += '<li class="tier1"><a id="' + e + '" class="entity">' + bigData[e].title + '</a></li>';
+    entityHTML += '<li class="tier1"><a id="' + e.entityID + '" class="entity">' + e.title + '</a></li>';
     subheadsHTML += '<div class="subheadEntity"><ul>';
     modalsHTML += '<div class="modalEntity">';
-    Object.keys(bigData[e].subheads).forEach(function(s) {
-      subheadsHTML += '<li class="tier2"><a class="subhead">' + s + '</a></li>';
+    e.subheads.forEach(function(s) {
+      subheadsHTML += '<li class="tier2"><a class="subhead">' + s.subhead + '</a></li>';
       modalsHTML += '<div class="modal">';
-      modalsHTML += '<div class="modal-title"><h3>' + bigData[e].title + '</h3></div>';
-      var data = bigData[e].subheads[s];
-      if(notBottom(data) == 0) {
+      modalsHTML += '<div class="modal-title"><h3>' + e.title + '</h3></div>';
+
+      if (s.content.length > 1) {
         // more than one data, use slider
         modalsHTML += '<div class="button-left"><img class="icon" src="' + left + '"></div>';
         modalsHTML += '<div class="button-right"><img class="icon" src="' + right + '"></div>';
         modalsHTML += '<div class="cycle">';
-        modalsHTML += innerSlider(data, e, s);
+        modalsHTML += innerSlider(e, s);
         modalsHTML += '</div>'; // cycle
       } else {
-        modalsHTML += innerModal(data, e, s);
+        modalsHTML += innerModal(e, s, s.content[0]);
       }
       modalsHTML += '</div>'; // modal
     });
@@ -304,56 +434,40 @@ function init() {
     modalsHTML += '</div>'; // modalEntity
   });
 
-  // returns 0 only if the data is made up of arrays and objects, or returns the number of strings and numbers
-  function notBottom (data) {
-    return Object.keys(data).reduce(function(prev, el, ind, arr) {
-    if (typeof data[el] == 'string' || typeof data[el] == 'number') return prev + 1;
-      return prev;
-    }, 0);
-  }
-
-  function innerSlider (data, e, s) {
+  function innerSlider (e, s) {
     var html = '';
-    if(typeof data == 'object') {
-      Object.keys(data).forEach(function(d) {
-        html += innerModal(data[d], e, s, d);
-      }); 
-    } else if(typeof data == 'array') {
-      data.forEach(function(d) {
-        html += innerModal(data[d], e, s, d);
-      });
-    } else {
-      throw new Error("innerSlider called with something other than an object or array!");
-    }
+    s.content.forEach(function(d) {
+      html += innerModal(e, s, d);
+    });
     return html;
   }
 
-  function innerModal(data, e, s, d) {
+  function innerModal(e, s, d) {
     var html = '<div class="data">';
     // Data, Img, Text, or iFrame... pick one. 
-    if(data.data) {
-      if (d) {
-        var dataTarget = e + d.replace(/\s/g, '');
-        var title = d;
+    if(d.data) {
+      if (d.title) {
+        var dataTarget = e.entityID + d.title.replace(/\s/g, '');
+        var title = d.title;
       } else {
-        var dataTarget = e + s.replace(/\s/g, '');
-        var title = s;
+        var dataTarget = e.entityID + s.subhead.replace(/\s/g, '');
+        var title = s.subhead;
       }
       html += '<div id="' + dataTarget + '"></div>';
-      // MAKE AN ARRAY
+      // Add references to the lazyData array, to be used to build d3 charts later
       lazyData.push({
         target: '#' + dataTarget,
-        dataset: data.data,
+        dataset: d.data,
         title: title
       });
-    } else if (data.img) {
-       html += modalImg(data.img);
-    } else if (data.text) { 
-      html += modalText(data.text);
-    } else if (data.iframe) {
-      html += data.iframe;
+    } else if (d.img) {
+       html += modalImg(d.img);
+    } else if (d.text) { 
+      html += modalText(d.text);
+    } else if (d.iframe) {
+      html += d.iframe;
     }
-    if(data.source) html += modalSource(data.source, data.sourceURL);
+    if(d.source) html += modalSource(d.source, d.sourceURL);
     html += '</div>';
     return html;
   }
@@ -522,12 +636,12 @@ function init() {
     });
   }
 
+  // datalink click
   $(document).on('click', '.dataLink', function(e) {
     e.preventDefault();
     e.stopPropagation();
     var entityID = e.currentTarget.id.replace(/Link$/, "");
     var entity = $("#" + entityID);
-
     _entities.removeClass("hover");
     entity.addClass("hover");
     $("#entities").show();
@@ -535,15 +649,35 @@ function init() {
     setSubheads(e, entity);
   });
 
+  // toolbar dataButton click
   $(document).on('click', '#dataLauncher', function(e) {
     $("#entities").show();
     $("#subheadsList").show();
   });
 
-  $(document).mousedown(function(e) {
+  // plaudits click
+  $(document).on('click', '#plaudit', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    var left = $("#plaudit").position().left;
+    $("#plauditMenu").css("left", left).show();
+
+    // plaudit menu click
+    $(document).on('click', '#plauditMenu', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      console.log('click click boom');
+      $("#plauditMenu").show();
+    });
+
+  });
+
+  // document click - hide existing menus
+  $(document).click(function(e) {
     $("#entities").hide();
     $("#subheadsList").hide();
     $("#modalsList").hide();
+    $("#plauditMenu").hide();
   });
 
   // indContrib(null, "#obamaData");

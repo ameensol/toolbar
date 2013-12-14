@@ -15,7 +15,7 @@ function init() {
 
   console.log('extension injection commenced');
 
-  var screenWidth = document.width;
+  var screenWidth = document.body.clientWidth;
   var article = $("#post-content").children("p");
 
   freeIcons = chrome.extension.getURL("lib/glyphicons/free");
@@ -41,7 +41,15 @@ function init() {
         <img class="icon" src="' + thumbsDown + '">\
         <span id="articleScore">357</span>\
         <img class="icon" src="' + thumbsUp + '">\
-        <img class="icon" src="' + cup + '">\
+        <img id="plaudit" class="icon" src="' + cup + '">\
+        <div id="plauditMenu">\
+          <ul>\
+            <li><strong>Plaudits</strong></li>\
+            <li>Available: 3</li>\
+            <li>Award: <input id="plauditNum" type="number" placeholder="1"><input id="plauditGo" type="submit" value="Give!"></li>\
+            <li id="getMore">Get more</li>\
+          </ul>\
+        </div>\
       </div>\
       <div class="icons pull-right">\
         <img class="icon" src="' + message + '">\
@@ -58,28 +66,28 @@ function init() {
   var entityHTML = '<div id="entities"><h2>Entities</h2><ul>';
   var subheadsHTML = '<div id="subheadsList">';
   var modalsHTML = '<div id="modalsList">';
-  Object.keys(bigData).forEach(function(e) {
+  bigData.forEach(function(e) {
     // replace the entities phrase with a datalink
     article.each(function() {
-      $(this).html($(this).html().replace(bigData[e].phrase, '<a id="' + e + 'Link" class="dataLink" href="#">' + bigData[e].phrase + '</a>'));
+      $(this).html($(this).html().replace(e.phrase, '<a id="' + e.entityID + 'Link" class="dataLink" href="#">' + e.phrase + '</a>'));
     });
-    entityHTML += '<li class="tier1"><a id="' + e + '" class="entity">' + bigData[e].title + '</a></li>';
+    entityHTML += '<li class="tier1"><a id="' + e.entityID + '" class="entity">' + e.title + '</a></li>';
     subheadsHTML += '<div class="subheadEntity"><ul>';
     modalsHTML += '<div class="modalEntity">';
-    Object.keys(bigData[e].subheads).forEach(function(s) {
-      subheadsHTML += '<li class="tier2"><a class="subhead">' + s + '</a></li>';
+    e.subheads.forEach(function(s) {
+      subheadsHTML += '<li class="tier2"><a class="subhead">' + s.subhead + '</a></li>';
       modalsHTML += '<div class="modal">';
-      modalsHTML += '<div class="modal-title"><h3>' + bigData[e].title + '</h3></div>';
-      var data = bigData[e].subheads[s];
-      if(notBottom(data) == 0) {
+      modalsHTML += '<div class="modal-title"><h3>' + e.title + '</h3></div>';
+
+      if (s.content.length > 1) {
         // more than one data, use slider
         modalsHTML += '<div class="button-left"><img class="icon" src="' + left + '"></div>';
         modalsHTML += '<div class="button-right"><img class="icon" src="' + right + '"></div>';
         modalsHTML += '<div class="cycle">';
-        modalsHTML += innerSlider(data, e, s);
+        modalsHTML += innerSlider(e, s);
         modalsHTML += '</div>'; // cycle
       } else {
-        modalsHTML += innerModal(data, e, s);
+        modalsHTML += innerModal(e, s, s.content[0]);
       }
       modalsHTML += '</div>'; // modal
     });
@@ -87,56 +95,40 @@ function init() {
     modalsHTML += '</div>'; // modalEntity
   });
 
-  // returns 0 only if the data is made up of arrays and objects, or returns the number of strings and numbers
-  function notBottom (data) {
-    return Object.keys(data).reduce(function(prev, el, ind, arr) {
-    if (typeof data[el] == 'string' || typeof data[el] == 'number') return prev + 1;
-      return prev;
-    }, 0);
-  }
-
-  function innerSlider (data, e, s) {
+  function innerSlider (e, s) {
     var html = '';
-    if(typeof data == 'object') {
-      Object.keys(data).forEach(function(d) {
-        html += innerModal(data[d], e, s, d);
-      }); 
-    } else if(typeof data == 'array') {
-      data.forEach(function(d) {
-        html += innerModal(data[d], e, s, d);
-      });
-    } else {
-      throw new Error("innerSlider called with something other than an object or array!");
-    }
+    s.content.forEach(function(d) {
+      html += innerModal(e, s, d);
+    });
     return html;
   }
 
-  function innerModal(data, e, s, d) {
+  function innerModal(e, s, d) {
     var html = '<div class="data">';
     // Data, Img, Text, or iFrame... pick one. 
-    if(data.data) {
-      if (d) {
-        var dataTarget = e + d.replace(/\s/g, '');
-        var title = d;
+    if(d.data) {
+      if (d.title) {
+        var dataTarget = e.entityID + d.title.replace(/\s/g, '');
+        var title = d.title;
       } else {
-        var dataTarget = e + s.replace(/\s/g, '');
-        var title = s;
+        var dataTarget = e.entityID + s.subhead.replace(/\s/g, '');
+        var title = s.subhead;
       }
       html += '<div id="' + dataTarget + '"></div>';
-      // MAKE AN ARRAY
+      // Add references to the lazyData array, to be used to build d3 charts later
       lazyData.push({
         target: '#' + dataTarget,
-        dataset: data.data,
+        dataset: d.data,
         title: title
       });
-    } else if (data.img) {
-       html += modalImg(data.img);
-    } else if (data.text) { 
-      html += modalText(data.text);
-    } else if (data.iframe) {
-      html += data.iframe;
+    } else if (d.img) {
+       html += modalImg(d.img);
+    } else if (d.text) { 
+      html += modalText(d.text);
+    } else if (d.iframe) {
+      html += d.iframe;
     }
-    if(data.source) html += modalSource(data.source, data.sourceURL);
+    if(d.source) html += modalSource(d.source, d.sourceURL);
     html += '</div>';
     return html;
   }
@@ -305,12 +297,12 @@ function init() {
     });
   }
 
+  // datalink click
   $(document).on('click', '.dataLink', function(e) {
     e.preventDefault();
     e.stopPropagation();
     var entityID = e.currentTarget.id.replace(/Link$/, "");
     var entity = $("#" + entityID);
-
     _entities.removeClass("hover");
     entity.addClass("hover");
     $("#entities").show();
@@ -318,15 +310,35 @@ function init() {
     setSubheads(e, entity);
   });
 
+  // toolbar dataButton click
   $(document).on('click', '#dataLauncher', function(e) {
     $("#entities").show();
     $("#subheadsList").show();
   });
 
-  $(document).mousedown(function(e) {
+  // plaudits click
+  $(document).on('click', '#plaudit', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    var left = $("#plaudit").position().left;
+    $("#plauditMenu").css("left", left).show();
+
+    // plaudit menu click
+    $(document).on('click', '#plauditMenu', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      console.log('click click boom');
+      $("#plauditMenu").show();
+    });
+
+  });
+
+  // document click - hide existing menus
+  $(document).click(function(e) {
     $("#entities").hide();
     $("#subheadsList").hide();
     $("#modalsList").hide();
+    $("#plauditMenu").hide();
   });
 
   // indContrib(null, "#obamaData");

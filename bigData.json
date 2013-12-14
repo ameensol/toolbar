@@ -256,35 +256,6 @@
       ]
     }
   },
-  "biden": {
-    "phrase": "Vice President Biden",
-    "title": "Joseph Biden",
-    "subheads": [
-      {
-        "subhead": "Campaign Finance",
-        "data": [
-          {
-            "title": "Industry Contributions",
-            "img": "https://raw.github.com/ameensol/ghettoCDN/master/gun/img/bidenIndContribImg.png",
-            "source": "Sunlight Foundation",
-            "sourceURL":"http://influenceexplorer.com/politician/joseph-r-biden-jr/bb7109816cb44622be17ec7b0d642171?cycle=2008"
-          },
-          {
-            "title": "Organization Contributions",
-            "img":"https://raw.github.com/ameensol/ghettoCDN/master/gun/img/bidenOrgContribImg.png",
-            "source": "Sunlight Foundation",
-            "sourceURL":"http://influenceexplorer.com/politician/joseph-r-biden-jr/bb7109816cb44622be17ec7b0d642171?cycle=2008"
-          }
-        ]
-      },
-      {
-        "subhead":"Relevant Speeches",
-        "data": {
-          "iframe": "<iframe height=\"360\" width=\"640\" style=\"border: 0px solid #ffffff;\" src=\"http://cdnapi.kaltura.com/index.php/extwidget/embedIframe/entry_id/0_ewldncd8/widget_id/_483511/uiconf_id/5590821?referer=http://abcnews.go.com/Politics/video/joe-biden-gun-control-speech-vice-president-pushes-19429372&amp;flashvars[autoPlay]=false&amp;addThis.playerSize=392x221&amp;freeWheel.siteSectionId=nws_offsite&amp;closedCaptionActive=false&amp;addThis.playerSize=640x360&amp;closedCaptionsOverPlayer.fontsize=18\">Unfortunately your browser does not support IFrames.</iframe>"
-        }
-      }
-    ]
-  },
   "manchin": {
     "phrase": "Joe Manchin III",
     "title": "Joseph Manchin III",
